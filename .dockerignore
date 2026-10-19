@@ -1,7 +1,9 @@
+
 .venv/
 __pycache__/
 .pytest_cache/
 .git/
-*.pyc 
+*.pyc
 .env
-
+models/*.joblib
+models/metrics.json
