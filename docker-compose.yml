@@ -1,0 +1,8 @@
+services:
+  aquaguard:
+    build: .
+    container_name: aquaguard-app
+    ports:
+     - "5001:5000"
+    restart: unless-stopped
+    
